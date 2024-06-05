@@ -1,1 +1,17 @@
+public class Vowel {
+    public static void VowelPr(char y){
+        if(y=='a' || y == 'e' || y =='i'||y =='o' || y =='u'){
+            System.out.println("this number is vowel");
+        }
+        else {
+            System.out.println("This number is consonent");
+        }
+    }
+
+    public static void main(String[] args) {
+        VowelPr('a');
+        VowelPr('m');
+        VowelPr('x');
+    }
+}
 
